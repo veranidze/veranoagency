@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс: Внедрение n8n в агентство Liza Adver | VERANO AGENCY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .tracking-tighter { letter-spacing: -0.05em; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white border-b border-neutral-200">
+        <div class="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
+            <div class="flex space-x-4 md:space-x-8">
+                <a href="index.html" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">← Назад на главную</a>
+                <a href="case.html" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">← Кейсы</a>
+                <a href="#contact" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Контакт</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="min-h-screen bg-white">
+        <section class="pt-32 pb-20 px-4 md:px-8 container mx-auto">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-6">
+                    КЕЙС: ВНЕДРЕНИЕ АВТОМАТИЗАЦИИ N8N В АГЕНТСТВО LIZA ADVER
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    Бесплатная система автоматизации для рекламного агентства
+                </p>
+                <div class="bg-red-600 text-white px-8 py-4 inline-block">
+                    <span class="text-sm uppercase tracking-widest">Экономия 100% на подписках</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Info -->
+        <section class="py-20 px-4 md:px-8 bg-gray-50">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-8 border border-gray-200 mb-12">
+                    <h2 class="text-2xl font-bold mb-4">О клиенте</h2>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Клиент:</strong> Рекламное агентство Liza Adver
+                    </p>
+                    <p class="text-gray-600">
+                        Рекламное агентство полного цикла, специализирующееся на таргетированной рекламе и лидогенерации для B2B и B2C клиентов.
+                    </p>
+                </div>
+
+                <h2 class="text-3xl font-bold mb-8">Проблема</h2>
+                <div class="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-red-800">Растущие расходы на автоматизацию</h3>
+                    <p class="text-gray-700 mb-4">
+                        Liza Adver активно использовали платные сервисы автоматизации:
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><strong>Zapier</strong> и <strong>Albato</strong> для интеграций</li>
+                        <li>Сбор данных из рекламных кабинетов в Google Sheets</li>
+                        <li>Передача лидов из форм в CRM клиентов</li>
+                        <li>Рост расходов с увеличением количества проектов</li>
+                    </ul>
+                </div>
+
+                <h2 class="text-3xl font-bold mb-8">Решение</h2>
+                <div class="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-green-800">Бесплатная система на базе n8n</h3>
+                    <p class="text-gray-700 mb-4">
+                        Мы разработали и внедрили кастомную систему автоматизации на базе open-source платформы n8n:
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Развёрнута на бесплатном сервере</li>
+                        <li>Автоматические рабочие процессы (workflow)</li>
+                        <li>Прямое подключение к API рекламных кабинетов</li>
+                        <li>Мгновенная передача лидов в CRM клиентов</li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-white p-6 border border-gray-200">
+                        <h3 class="text-lg font-semibold mb-3">Что было автоматизировано</h3>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li>• Сбор данных из Facebook Ads</li>
+                            <li>• Сбор данных из Google Ads</li>
+                            <li>• Автоматическое заполнение Google Sheets</li>
+                            <li>• Передача лидов в Bitrix24</li>
+                            <li>• Передача лидов в amoCRM</li>
+                            <li>• Передача лидов в HubSpot</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 border border-gray-200">
+                        <h3 class="text-lg font-semibold mb-3">Инструменты</h3>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li>• n8n (open-source)</li>
+                            <li>• Google Sheets API</li>
+                            <li>• Facebook Marketing API</li>
+                            <li>• Google Ads API</li>
+                            <li>• CRM API интеграции</li>
+                            <li>• Webhook обработчики</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="text-3xl font-bold mb-8">Результаты</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                    <div class="bg-white p-6 border border-gray-200 text-center">
+                        <div class="text-3xl font-bold text-green-600 mb-2">100%</div>
+                        <div class="text-sm text-gray-600">Экономия на подписках</div>
+                    </div>
+                    <div class="bg-white p-6 border border-gray-200 text-center">
+                        <div class="text-3xl font-bold text-green-600 mb-2">6 часов</div>
+                        <div class="text-sm text-gray-600">Свободного времени в неделю</div>
+                    </div>
+                    <div class="bg-white p-6 border border-gray-200 text-center">
+                        <div class="text-3xl font-bold text-green-600 mb-2">&lt;5 сек</div>
+                        <div class="text-sm text-gray-600">Время передачи лидов</div>
+                    </div>
+                    <div class="bg-white p-6 border border-gray-200 text-center">
+                        <div class="text-3xl font-bold text-green-600 mb-2">24/7</div>
+                        <div class="text-sm text-gray-600">Автоматическая работа</div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-4">Ключевые преимущества</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold mb-2">Экономическая эффективность</h4>
+                            <p class="text-sm text-gray-600">Полный отказ от платных подписок на Zapier и Albato</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Операционная эффективность</h4>
+                            <p class="text-sm text-gray-600">Экономия 6 часов в неделю на ручные процессы</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Скорость реакции</h4>
+                            <p class="text-sm text-gray-600">Мгновенная передача лидов в CRM клиентов</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Масштабируемость</h4>
+                            <p class="text-sm text-gray-600">Легкое добавление новых интеграций без затрат</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="py-20 px-4 md:px-8 bg-black text-white">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">Вывод</h2>
+                <p class="text-gray-300 mb-8">
+                    Этот кейс демонстрирует, как использование бесплатных open-source решений может стать мощной альтернативой дорогим коммерческим сервисам. Система на базе n8n не только решила проблему высоких расходов, но и повысила операционную эффективность агентства Liza Adver.
+                </p>
+                <a href="https://t.me/veranoagency" class="bg-red-600 text-white px-8 py-4 inline-block hover:bg-red-700 transition-colors">
+                    Обсудить ваш проект
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

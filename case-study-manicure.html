@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс: Окупаемость 400% для мастера маникюра в Батуми - VERANO AGENCY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .tracking-tighter { letter-spacing: -0.05em; }
+        .tracking-widest { letter-spacing: 0.1em; }
+        .case-content h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            color: #111827;
+            line-height: 1.2;
+            letter-spacing: -0.025em;
+        }
+        .case-content h3 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #111827;
+            line-height: 1.3;
+        }
+        .case-content p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: #374151;
+            font-size: 1.125rem;
+        }
+        .case-content ul {
+            list-style-type: none;
+            margin-bottom: 1.5rem;
+        }
+        .case-content li {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+            color: #374151;
+            font-size: 1.125rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        .case-content li::before {
+            content: '•';
+            color: #ef4444;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .metric-card {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .metric-number {
+            font-size: 3rem;
+            font-weight: 900;
+            display: block;
+            line-height: 1;
+        }
+        .cta-button {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(239, 68, 68, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation - Corporate Style -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white border-b border-neutral-200">
+        <div class="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">VERANO AGENCY</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Главная</a>
+                <a href="index.html#about" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Кто мы?</a>
+                <a href="index.html#clients" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Клиенты</a>
+                <a href="index.html#services" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Услуги</a>
+                <a href="index.html#contact" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Контакт</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 px-4 md:px-8 bg-black text-white">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid grid-cols-12 gap-8 items-center">
+                <div class="col-span-12 lg:col-span-7">
+                    <h1 class="text-5xl lg:text-7xl font-black tracking-tighter leading-none mb-6">
+                        Окупаемость 400%
+                    </h1>
+                    <h2 class="text-2xl lg:text-3xl font-bold mb-6 text-red-600">
+                        Привлечение клиентов для мастера маникюра в Батуми
+                    </h2>
+                    <p class="text-xl text-gray-300 leading-relaxed max-w-2xl">
+                        Как мы помогли мастеру маникюра выйти из тени конкурентов и забить запись на 2 недели вперёд за 14 дней
+                    </p>
+                </div>
+                <div class="col-span-12 lg:col-span-5">
+                    <img src="img/k4.jpg" alt="Маникюр кейс" class="w-full aspect-square object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Results Overview -->
+    <section class="py-20 px-4 md:px-8 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold tracking-tighter mb-12 text-center">Результаты за 14 дней</h2>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="metric-card">
+                    <span class="metric-number">400%</span>
+                    <span class="text-sm uppercase tracking-widest mt-2 block">Окупаемость</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">30+</span>
+                    <span class="text-sm uppercase tracking-widest mt-2 block">Новых клиентов</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">12$</span>
+                    <span class="text-sm uppercase tracking-widest mt-2 block">Цена клиента</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">14</span>
+                    <span class="text-sm uppercase tracking-widest mt-2 block">Дней запись</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Without These Elements -->
+    <section class="py-20 px-4 md:px-8 bg-white text-black">
+        <div class="container mx-auto max-w-6xl text-center">
+            <h2 class="text-4xl font-bold tracking-tighter mb-8">Это все без:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="text-left space-y-4">
+                    <div class="flex items-start">
+                        <span class="text-red-600 mr-3 text-xl">✗</span>
+                        <span>постоянного продумывания акций</span>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="text-red-600 mr-3 text-xl">✗</span>
+                        <span>съёмки рилс и тик-токов</span>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="text-red-600 mr-3 text-xl">✗</span>
+                        <span>стильного оформления профиля и хай-лайтс (фото делались на андроид с не самой лучшей камерой)</span>
+                    </div>
+                </div>
+                <div class="text-left space-y-4">
+                    <div class="flex items-start">
+                        <span class="text-red-600 mr-3 text-xl">✗</span>
+                        <span>без сложной SMM-стратегии</span>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="text-red-600 mr-3 text-xl">✗</span>
+                        <span>без сотрудничества с блогерами</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Content -->
+    <main class="py-20 px-4 md:px-8">
+        <article class="container mx-auto max-w-4xl case-content">
+            <section>
+                <h2>Ситуация до начала работы</h2>
+                <p>
+                    Мастер маникюра <a href="http://instagram.com/ulyana.lune/" target="_blank" class="text-red-600 hover:text-red-400 transition-colors">@ulyana.lune</a> недавно переехала в Батуми и столкнулась с острой проблемой: несмотря на отличные навыки и качественные материалы, клиентов было катастрофически мало. В городе более 140 салонов предлагают маникюр, и выделиться на фоне конкурентов казалось невозможным.
+                </p>
+                <p>
+                    Пробовала работать в салоне — низкая оплата. Пыталась рекламировать через кнопку "продвигать" в Instagram — получила блокировку рекламного кабинета. Клиенты приходили нерегулярно, приходилось писать и предлагать маникюр знакомым.
+                </p>
+            </section>
+
+            <section>
+                <h2>Главная проблема</h2>
+                <p>
+                    В Батуми клиенты выбирают мастера не по качеству работы, а по тому, кто первый попадает в поле зрения. Когда человек гуглит "маникюр Батуми", ему показываются десятки вариантов с похожими ценами и акциями. В такой ситуации выбор становится случайным.
+                </p>
+                <div class="my-8">
+                    <img src="img/map.jpeg" alt="Карта Батуми с расположением мастеров маникюра" class="w-full h-auto rounded-lg shadow-lg">
+                    <p class="text-sm text-gray-500 mt-2 text-center">Конкуренция в маникюрном бизнесе Батуми: 140 точек</p>
+                </div>
+                <blockquote class="border-l-4 border-red-600 pl-6 italic text-gray-600 my-8 bg-gray-50 p-6">
+                    Ключ к успеху — попасть в поле зрения клиента раньше конкурентов и создать правильное первое впечатление. Клиентка мастера говорила: "Я увидела вашу рекламу сразу, как вышла из самолёта". Именно так мы отвоёвываем аудиторию у конкурентов прежде, чем они пойдут выбирать среди других салонов.
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>Наша стратегия</h2>
+                <h3>1. Давление на главную боль туристов из СНГ</h3>
+                
+                <p>
+                    Вместо типичной рекламы "маникюр 90₾" мы сходу в креативе задаём вопрос: "Ты недавно в Батуми и иещёшь качественный маникюр не за космические деньги?". Ситуация действительно такая: туристы из СНГ замечают, что цены на маникюр в Батуми относительно высокие, и главной болью туристов здесь является соотношение цена/качество и где это найти.
+                </p>
+                <p>
+                    Вот примеры нашей рекламы, которая привлекла клиентов для мастера маникюра.
+                </p>
+                <div class="my-8">
+                    <div class="aspect-video bg-black rounded-lg overflow-hidden">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/qnP6tEyL2j0" 
+                            title="Пример рекламного креатива" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="my-8">
+                    <div class="aspect-video bg-black rounded-lg overflow-hidden">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/95NoQPLTFDw" 
+                            title="Пример рекламного креатива" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <h3>2. Точный таргетинг</h3>
+                <ul>
+                    <li>Женщины 18-45 лет</li>
+                    <li>Языковые настройки рекламы: русский, украинский, белорусский</li>
+                    <li>Таргет на туристические районы города, где принимает мастер и где концентрация приезжих выше</li>
+                    <li>Подписчики конкурентов</li>
+                </ul>
+
+                <h3>3. Быстрая обработка заявок</h3>
+                <p>
+                    Ответ на сообщения в течение 5-10 минут с автоматизированным, но персонализированным подходом.
+                </p>
+            </section>
+
+            <section>
+                <h2>Дополнительные инструменты</h2>
+                <h3>Система лояльности</h3>
+                <ul>
+                    <li><strong>Первое посещение:</strong> скидка 10%</li>
+                    <li><strong>Бонус за отзыв:</strong> скидка 10% за фотоотзыв</li>
+                    <li><strong>Приведи подругу:</strong> обе получают 20% скидку</li>
+                </ul>
+
+                <h3>Автоматизация процессов</h3>
+                <ul>
+                    <li>Автоответчики в Instagram для первичного контакта</li>
+                    <li>Онлайн-запись через календарь</li>
+                    <li>Напоминания о записи за день</li>
+                    <li>Автоматические просьбы об отзыве после визита</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Ключевые выводы</h2>
+                <p>
+                    Успех в высококонкурентной нише маникюра в Батуми не требует сложных стратегий или больших бюджетов. Главное — это:
+                </p>
+                <ul>
+                    <li>Создание правильного рекламного видео, которое привлекает внимание, бьёт в очевидную боль и даёт решение.</li>
+                    <li>Точный таргетинг на нужную аудиторию</li>
+                    <li>Быстрая обработка заявок</li>
+                    <li>Продуманная система лояльности</li>
+                </ul>
+                <p>
+                    Эти простые шаши позволили мастеру маникюра за 14 дней выйти на стабильную запись и создать базу из 30+ постоянных клиентов с окупаемостью 400%.
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 md:px-8 bg-black text-white">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-4xl font-bold tracking-tighter mb-6">Хотите такие же результаты?</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Получите бесплатную консультацию и узнайте, как мы можем помочь вашему бизнесу выйти на новый уровень
+            </p>
+            <a href="index.html#contact" class="cta-button">
+                Получить консультацию
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 md:px-8 bg-white border-t border-neutral-200">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm mb-4 md:mb-0 uppercase tracking-widest">© 2025 VERANO AGENCY. Все права защищены.</p>
+            <div class="flex space-x-8">
+                <a href="https://www.instagram.com/verano.traffic/" target="_blank" class="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Instagram</a>
+                <a href="https://www.linkedin.com/in/dmitry-veranidze/" target="_blank" class="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

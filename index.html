@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERANO AGENCY - Маркетинговое агентство</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .tracking-tighter { letter-spacing: -0.05em; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white border-b border-neutral-200">
+        <div class="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
+        
+            <div class="flex space-x-4 md:space-x-8">
+                <a href="#clients" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Клиенты</a>
+                <a href="#services" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Услуги</a>
+                <a href="#about" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Кто мы?</a>
+                <a href="#contact" class="text-xs md:text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Контакт</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="min-h-screen bg-white">
+        <section class="pt-32 pb-20 px-4 md:px-8 container mx-auto">
+            <div class="grid grid-cols-12 gap-4">
+                <div class="col-span-12 md:col-span-7 mb-8 md:mb-0">
+                    <h1 class="text-[calc(4.5rem*1.05*1.05)] sm:text-8xl md:text-9xl font-bold tracking-tighter leading-none mb-6 text-center md:text-left">
+                        VERANO<br>AGENCY
+                    </h1>
+                    <h1 class="text-xl max-w-xl text-center md:text-left">
+                        Мы - маркетинговое агентство полного цикла, 
+                        предоставляющее широкий спектр услуг для вашего бизнеса
+                    </h1>
+                </div>
+                <div class="col-span-12 md:col-span-5 flex items-center justify-center">
+                        <img src="img/0.jpg" alt="Photo" class="w-full aspect-square object-cover">
+                    </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="clients" class="py-20 px-4 md:px-8 bg-black text-white">
+            <div class="container mx-auto">
+                <h2 class="text-6xl font-bold tracking-tighter mb-12">КЛИЕНТЫ</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <a href="#" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/k1.jpg" alt="Project 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Привлечение клиентов для нового онлайн-банка Keytom в Европе через Meta Ads</h3>
+                        <p class="text-neutral-400">Тесты и разработка эффективной стратегии</p>
+                    </a>
+
+                    <!-- Project 2 -->
+                    <a href="case-study-lashes.html" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/k2.jpg" alt="Project 2" class="w-full  object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Окупаемость 320%: привлечение клиентов для салона красоты MAKE ME LASHES в Батуми</h3>
+                        <p class="text-neutral-400">Как сделать +25 новых клиентов с помощью рекламы в Инстаграме и правильной креативной стратегии</p>
+                    </a>
+
+                    <!-- Project 3 -->
+                    <a href="case-study-manicure.html" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/k4.jpg" alt="Project 4" class="w-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Окупаемость 400%: привлечение клиентов для мастера маникюра в Батуми в условиях конкуренции</h3>
+                        <p class="text-neutral-400">Привлечение новых клиентов с помощью Meta Ads</p>
+                    </a>
+
+                    <!-- Project 4 -->
+                    <a href="case-study-targetologists.html" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/k5.jpg" alt="Project 2" class="w-full  object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Окупаемость 589%: Курс по продажам своих услуг для фрилансеров</h3>
+                        <p class="text-neutral-400">Как вызывать доверие и продавать своё обучение на холодный трафик с помощью Meta Ads и трёх простых видео</p>
+                    </a>
+
+                    <!-- Project 5 -->
+                    <a href="case.html" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/kg.jpg" alt="Project 5" class="w-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">$3000 выручки каждый месяц с клуба по копирайтингу</h3>
+                        <p class="text-neutral-400">Как мы привлекали подписчиков в маркетинговое сообщество, стоимостью 100$ в месяц</p>
+                    </a>    
+                    
+                    <!-- Project 6 -->
+                    <a href="case-study-liza-adver-n8n.html" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/la.png" alt="Project 6" class="w-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">ВНЕДРЕНИЕ АВТОМАТИЗАЦИИ N8N В АГЕНТСТВО LIZA ADVER</h3>
+                        <p class="text-neutral-400">100 процентная экономия на платных системах автоматизации/интеграции с CRM</p>
+                    </a>
+                    
+                    <!-- Project 7 -->
+                    <a href="case-study-igaming.html" class="group block">
+                        <div class="aspect-square bg-white mb-4 overflow-hidden">
+                            <img src="img/an.jpeg" alt="Project 7" class="w-full object-contain group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Анонимная и безопасная рекламная система для iGaming: Как мы это сделали</h3>
+                        <p class="text-neutral-400">Как запустить крупную iGaming-кампанию в стране, где подобная реклама строго запрещена</p>
+                    </a>
+                    
+                    <!-- More Cases Slot -->
+                    <div class="group block">
+                        <div class="aspect-square bg-neutral-800 mb-4 overflow-hidden flex items-center justify-center border-2 border-dashed border-neutral-600">
+                            <div class="text-center">
+                                <div class="text-4xl mb-4">📁</div>
+                                <div class="text-white font-bold text-lg">Больше кейсов<br>по запросу</div>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Больше кейсов по запросу</h3>
+                        <p class="text-neutral-400">Свяжитесь с нами для получения дополнительных примеров наших работ</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 px-4 md:px-8 bg-white">
+            <div class="container mx-auto">
+                <h2 class="text-6xl font-bold tracking-tighter mb-12">УСЛУГИ</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-social-ads.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">Продвижение в социальных сетях/поиске</a>
+                            <p class="text-neutral-600"><br>Реклама в Instagram/Facebook, Google Ads, TikTok Ads, Telegram - лиды с гарантией по договору. Настройка и оптимизация рекламных кампаний с фокусом на окупаемости, конверсии и вашей узнаваемости. Можно выбрать отдельные каналы трафика по запросу.</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">индивидуальный рассчёт стоимости по итогу консультации</div>
+                        <a href="service-social-ads.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-creative-strategy.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">Креативная стратегия</a>
+                            <p class="text-neutral-600"><br>Разработка креативных концепций, дизайн-направления, брендинг и визуальная идентичность для вашего бизнеса</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">от $1000/проект</div>
+                        <a href="service-creative-strategy.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-web-development.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">Веб-дизайн и разработка</a>
+                            <p class="text-neutral-600"><br>Создание продающих лендингов, корпоративных сайтов, технических и e-commerce решений с современным дизайном</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">от $300</div>
+                        <a href="service-web-development.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-smm-content.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">SMM и контент</a>
+                            <p class="text-neutral-600"><br>Управление социальными сетями, маркетинг в соцсетях и контент-стратегия, фото и видео продакшн для Instagram и TikTok</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">индивидуальный рассчёт стоимости по итогу консультации</div>
+                        <a href="service-smm-content.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-sales-funnels.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">Воронки продаж</a>
+                            <p class="text-neutral-600"><br>Разработка, оптимизация и автоматизация воронок продаж, удержание клиентов, дожим и допродажи, прогревы</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">от $500/проект</div>
+                        <a href="service-sales-funnels.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-analytics-cro.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">Аналитика и CRO</a>
+                            <p class="text-neutral-600"><br>Мы выявляем слабые места в вашем маркетинге и умножаем вашу прибыль через оптимизацию воронки. Глубокая аналитика, оптимизация конверсии</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">индивидуальный рассчёт стоимости по итогу консультации</div>
+                        <a href="service-analytics-cro.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 7 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-tech-support.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">Техническая поддержка</a>
+                            <p class="text-neutral-600"><br>Наш IT-отдел берёт на себя помощь с технической реализацией вашего маркетинга. Вам больше не нужно тратить время на подключение CRM, баны рекламных кабинетов, сложную настройку сервисов и прочее.</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">индивидуальный рассчёт стоимости по итогу консультации</div>
+                        <a href="service-tech-support.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 8 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-ai-agents.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">ИИ-агенты, ИИ-продажники, автоматизация</a>
+                            <p class="text-neutral-600"><br>Наш IT-отдел автоматизирует процессы вашего бизнеса с помощью ИИ-инструментов.</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">от $1000/проект</div>
+                        <a href="service-ai-agents.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                    <!-- Service 9 -->
+                    <div class="group border border-neutral-200 p-8 transition-colors flex flex-col">
+                        <div class="mb-4 flex-grow">
+                            <a href="service-seo.html" class="text-3xl font-bold mb-4 hover:text-red-600 transition-colors">SEO продвижение</a>
+                            <p class="text-neutral-600"><br>Оптимизация вашего сайта для поисковых систем, повышение его видимости и привлечения трафика.</p>
+                        </div>
+                        <div class="text-sm text-neutral-500 mb-4">от $500/месяц</div>
+                        <a href="service-seo.html" class="mt-auto px-4 py-2 bg-red-600 text-white text-sm hover:bg-red-700 transition-colors text-center">подробнее</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 px-4 md:px-8">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-12 gap-8">
+                    <!-- Left Column -->
+                    <div class="col-span-12 md:col-span-5">
+                        <h2 class="text-6xl font-bold tracking-tighter mb-8">КТО МЫ?</h2>
+                        <img src="img/team.jpg" alt="Photo" class="w-full aspect-[5/5] object-cover">
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-span-12 md:col-span-7 md:pt-24">
+                        <p class="text-xl mb-6">
+                            Команда сцециалистов со всего мира встретились в Батуми, Грузия, чтобы объединить 
+                            свои знания и опыт в одном маркетинговом агентстве и предоставить услуги топ-уровня.
+                        </p>
+                        <p class="mb-6">
+                            Прежде всего, мы стремимся к тому, чтобы наши клиенты получали результат, который 
+                            выражен в деньгах, то есть мы говорим на языке денег. Мы углубенно анализируем каждый бизнес, чтобы иметь прямое влияние 
+                            на его прибыль, и берём полную ответственность за достижение поставленных целей.
+                        </p>
+                        <p class="mb-6">
+                            
+                        </p>
+
+                        <!-- Lists -->
+                        <div class="grid grid-cols-2 gap-4 mt-12">
+                            <div>
+                                <h3 class="text-sm uppercase tracking-widest mb-2">Наши принципы:</h3>
+                                <ul class="space-y-2">
+                                    <li>Контроль</li>
+                                    <li>Точность</li>
+                                    <li>Прозрачность</li>
+                                    <li>Клиентоориентированность</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-4 md:px-8 bg-red-600 text-white">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <!-- Contact Info -->
+                    <div>
+                        <h2 class="text-6xl font-bold tracking-tighter mb-8">КОНТАКТ</h2>
+                        <p class="text-xl mb-8">Хотите работать вместе? Давайте обсудим ваш проект.</p>
+                        
+                        <div class="space-y-4">
+                            <p class="text-lg">
+                                Заполните форму и мы свяжемся с вами в течение 24 часов.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
+                        <form class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm uppercase tracking-widest mb-2">Имя</label>
+                                <input id="name" 
+                                       class="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50" 
+                                       placeholder="Ваше имя" 
+                                       type="text" 
+                                       value="">
+                            </div>
+                            
+                            <div>
+                                <label for="phone" class="block text-sm uppercase tracking-widest mb-2">Номер телефона *</label>
+                                <input id="phone" 
+                                       class="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50" 
+                                       placeholder="Ваш номер телефона" 
+                                       type="tel" 
+                                       value="" 
+                                       required>
+                            </div>
+                            
+                            <div>
+                                <label for="telegram" class="block text-sm uppercase tracking-widest mb-2">Telegram (необязательно)</label>
+                                <input id="telegram" 
+                                       class="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50" 
+                                       placeholder="@username" 
+                                       type="text" 
+                                       value="">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-sm uppercase tracking-widest mb-2">Email</label>
+                                <input id="email" 
+                                       class="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50" 
+                                       placeholder="Ваш email" 
+                                       type="email" 
+                                       value="">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-sm uppercase tracking-widest mb-2">Сообщение</label>
+                                <textarea id="message" 
+                                          class="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50" 
+                                          placeholder="Расскажите о вашем бизнесе" 
+                                          rows="4"></textarea>
+                            </div>
+                            
+                            <button type="submit" 
+                                    class="text-sm uppercase tracking-widest bg-white text-red-600 px-8 py-3 hover:bg-black hover:text-white transition-colors">
+                                Отправить сообщение
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="py-8 px-4 md:px-8 bg-black text-white">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm mb-4 md:mb-0">© 2025 VERANO AGENCY. Все права защищены.</p>
+            <div class="flex space-x-8">
+                <a href="https://www.instagram.com/verano.traffic/" target="_blank" class="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">Instagram</a>
+                <a href="https://www.linkedin.com/in/dmitry-veranidze/" target="_blank" class="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
